@@ -33,5 +33,7 @@
          increase the rate of unintentional unlocks. -->
     <bool name="config_lockscreenAntiFalsingClassifierEnabled">false</bool>
 
+<!-- Whether SystemUI ignores notch -->
+    <bool name="hide_view_behind_notch">true</bool>
 </resources>
 
