@@ -50,6 +50,8 @@ on enable-low-power
 
     write /dev/cpuctl/cpu.notify_on_migrate 1
 
+    write /sys/module/synaptics_dsx_i2c/parameters/double_tap_vibration_enabled 1
+
 on charger
     # Enable Power modes and set the CPU Freq Sampling rates
     write /sys/module/rpm_resources/enable_low_power/L2_cache 1
