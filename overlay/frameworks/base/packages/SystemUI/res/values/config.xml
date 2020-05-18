@@ -48,5 +48,9 @@
 
     <!-- System icon area layout weight -->
     <item name="system_icon_area_weight" format="float" type="integer">1.25</item>
+
+    <!-- do not use H265 encoder for screen recordings -->
+    <bool name="config_useNewScreenRecEncoder">false</bool>
+
 </resources>
 
