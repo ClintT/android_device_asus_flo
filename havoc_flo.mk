@@ -20,9 +20,8 @@
 # AEX stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/config/common.mk)
-$(call inherit-product, vendor/aosp/config/aex_props.mk)
+# Inherit some common Havoc stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
@@ -33,7 +32,7 @@ $(call inherit-product-if-exists, vendor/asus/flo/flo-vendor.mk)
 #$(call inherit-product-if-exists, vendor/qcom/proprietary/common/config/device-vendor.mk)
 
 PRODUCT_DEVICE := flo
-PRODUCT_NAME := aosp_flo
+PRODUCT_NAME := havoc_flo
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := asus
@@ -44,3 +43,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="razor-user 6.0.1 MOB30X 3036618 release-keys"
 
 BUILD_FINGERPRINT := google/razor/flo:6.0.1/MOB30X/3036618:user/release-keys
+
+HAVOC_BUILD_TYPE := UNOFFICIAL
+HAVOC_MAINTAINER := ClintT
