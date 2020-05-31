@@ -25,6 +25,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Email
 
+# Namespace
+PRODUCT_BOARD_PLATFORM := msm8960
+PRODUCT_USES_QCOM_HARDWARE := true
+PRODUCT_SOONG_NAMESPACES += $(LOCAL_PATH)
+
 # the actual meat of the device-specific product definition
 $(call inherit-product, device/asus/flo/device-common.mk)
 
