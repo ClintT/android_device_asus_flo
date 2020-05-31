@@ -31,6 +31,14 @@ $(call inherit-product, device/asus/flo/device-common.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     device/asus/flo/overlay
+    
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext \
+    qti-telephony-common
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
