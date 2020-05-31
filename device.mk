@@ -20,6 +20,10 @@ PRODUCT_PROPERTY_OVERRIDES := \
 # Camera
 PRODUCT_PACKAGES += \
     camera.flo
+    
+    # Email
+PRODUCT_PACKAGES += \
+    Email
 
 # the actual meat of the device-specific product definition
 $(call inherit-product, device/asus/flo/device-common.mk)
