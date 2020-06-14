@@ -20,10 +20,6 @@ PRODUCT_PROPERTY_OVERRIDES := \
 # Camera
 PRODUCT_PACKAGES += \
     camera.flo
-    
-    # Email
-PRODUCT_PACKAGES += \
-    Email
 
 # Namespace
 PRODUCT_BOARD_PLATFORM := msm8960
