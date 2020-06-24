@@ -60,9 +60,3 @@ debug.sf.enable_gl_backpressure=1
 
 # Display
 persist.hwc.mdpcomp.enable=true
-
-# USB debugging at boot
-persist.sys.usb.config=mtp,adb
-ro.adb.secure=0
-ro.secure=0
-ro.debuggable=1
