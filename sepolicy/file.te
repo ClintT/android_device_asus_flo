@@ -29,3 +29,5 @@ type sysfs_surfaceflinger, fs_type, sysfs_type;
 
 #type for devstart
 type sysfs_audio, sysfs_type, fs_type;
+
+type proc_touchpanel, fs_type;

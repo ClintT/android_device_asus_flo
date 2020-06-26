@@ -140,6 +140,10 @@ on post-fs
     start devstart_sh
     # Allow writing to the kernel trace log.
     chmod 0222 /sys/kernel/debug/tracing/trace_marker
+    
+    # Touchscreen
+    chown system system /proc/touchpanel/double_tap_enable
+    chmod 0660 /proc/touchpanel/double_tap_enable
 
 # msm specific files that need to be created on /data
 on post-fs-data

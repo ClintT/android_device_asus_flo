@@ -158,6 +158,9 @@ USE_MINIKIN := true
 #EXCLUDE_SERIF_FONTS := true
 #SMALLER_FONT_FOOTPRINT := true
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
+
 # Recovery
 TARGET_RECOVERY_DENSITY := hdpi
 
