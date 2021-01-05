@@ -26,8 +26,7 @@ $(call inherit-product, device/asus/flo/device-common.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    device/asus/flo/overlay \
-    device/asus/flo/overlay-lineage
+    device/asus/flo/overlay
 
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
