@@ -1,7 +1,7 @@
 PRODUCT_MAKEFILES := \
-	 $(LOCAL_DIR)/xtended_flo.mk
+	 $(LOCAL_DIR)/havoc_flo.mk
 
 COMMON_LUNCH_CHOICES := \
-    xtended_flo-user \
-    xtended_flo-userdebug \
-    xtended_flo-eng
+    havoc_flo-user \
+    havoc_flo-userdebug \
+    havoc_flo-eng
